@@ -1,0 +1,25 @@
+/* for small device  */
+@media screen and (max-width: 576px){
+    .man_img {
+        width: 170px;
+        left: 116px;
+    }
+ }
+ /* for medium device  */
+ @media screen and (max-width: 768px) {
+     
+}
+/* for large device  */
+ @media screen and (max-width: 992px) {
+    
+ }
+ /* for extra large device  */
+
+ @media screen and (max-width: 1200px) {
+    
+ }
+/* for extra extra large device  */
+
+ @media screen and (max-width: 1400px) {
+    
+ }
