@@ -1,13 +1,26 @@
 /* for small device  */
-@media screen and (max-width: 576px){
+@media screen and (min-width:0px) and (max-width: 576px){
     .man_img {
         width: 170px;
         left: 116px;
     }
+    .date_text{
+        height: 64px;
+        width: 64px;
+    }
+    .footer_menu{
+        padding: 30px 0;
+    }
  }
  /* for medium device  */
- @media screen and (max-width: 768px) {
-     
+ @media screen and (min-width:577px) and (max-width: 768px) {
+    .man_img {
+        width: 191px;
+        left: 76px;
+    }
+    .review_card::after{
+        margin-left: 212px;
+    }
 }
 /* for large device  */
  @media screen and (max-width: 992px) {
